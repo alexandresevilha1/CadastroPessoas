@@ -1,0 +1,15 @@
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\bin\Debug\net6.0\PFS_UC12 - EncontroRemoto2.exe
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\bin\Debug\net6.0\PFS_UC12 - EncontroRemoto2.deps.json
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\bin\Debug\net6.0\PFS_UC12 - EncontroRemoto2.runtimeconfig.json
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\bin\Debug\net6.0\PFS_UC12 - EncontroRemoto2.dll
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\bin\Debug\net6.0\PFS_UC12 - EncontroRemoto2.pdb
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.csproj.AssemblyReference.cache
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.AssemblyInfoInputs.cache
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.AssemblyInfo.cs
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.csproj.CoreCompileInputs.cache
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.dll
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\refint\PFS_UC12 - EncontroRemoto2.dll
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.pdb
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\PFS_UC12 - EncontroRemoto2.genruntimeconfig.cache
+C:\Users\A l e x a n d r e\Desktop\MeusProjetos\PFS_UC12 - EncontroRemoto2\obj\Debug\net6.0\ref\PFS_UC12 - EncontroRemoto2.dll
