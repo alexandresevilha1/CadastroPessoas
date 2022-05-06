@@ -125,6 +125,15 @@ switch (opcao)
 
                     listaPf.Add(novaPf);
 
+                    /* StreamWriter sw = new StreamWriter($"{novaPf.Nome}.text");
+                    sw.WriteLine(novaPf.Nome);
+                    sw.Close(); */
+
+                    using (StreamWriter sw = new StreamWriter($"{novaPf.Nome}.txt"))
+                    {
+                        sw.WriteLine(novaPf.Nome);
+                    }
+
                     Console.WriteLine($"Cadastro realizado com sucesso");
                     Thread.Sleep(3000);
                     
@@ -135,7 +144,7 @@ switch (opcao)
 
                     Console.Clear();
 
-                    if (listaPf.Count > 0)
+                   /*  if (listaPf.Count > 0)
                     {
 
                         foreach (PessoaFisica cadaPessoa in listaPf)
@@ -162,9 +171,20 @@ switch (opcao)
                         Console.WriteLine($"Lista vazia!");
                         Thread.Sleep(3000);
                 
+                    } */
+
+                    using (StreamReader sr = new StreamReader("Alexandre.txt"))
+                    {
+                        string? linha;
+                        while ((linha = sr.ReadLine()) != null)
+                        {
+                            Console.WriteLine($"{linha}"); 
+                        }
                     }
 
-                    
+                    Console.WriteLine($"Aperte 'Enter' para continuar");
+                    Console.ReadLine();
+
                 break;
 
             case "0":
@@ -199,7 +219,28 @@ endPJ.endComercial = true;
 
 novaPJ.Endereco = endPJ;
 
-Console.Clear();
+metodoPJ.Inserir(novaPJ);
+
+List<PessoaJuridica> listaPj = metodoPJ.LerArquivo();
+
+foreach (PessoaJuridica cadaPj in listaPj)
+{
+
+    Console.Clear(); 
+
+    Console.WriteLine(@$"
+    Nome: {cadaPj.Nome}
+    Razão Social: {cadaPj.razaoSocial}
+    CNPJ: {cadaPj.Cnpj}
+
+    ");
+
+    Console.WriteLine($"Aperte 'Enter' para continuar");
+    Console.ReadLine();
+    
+}
+
+/* Console.Clear();
 
 Console.WriteLine(@$"
 Nome: {novaPJ.Nome}
@@ -212,7 +253,7 @@ CNPJ Válido: {metodoPJ.ValidarCnpj(novaPJ.Cnpj)}
 Console.WriteLine($"Aperte 'Enter' para continuar");
 Console.ReadLine();
 
-Console.WriteLine(metodoPJ.ValidarCnpj("00.000.000/00001-00"));
+Console.WriteLine(metodoPJ.ValidarCnpj("00.000.000/00001-00")); */
 
         break;
 
